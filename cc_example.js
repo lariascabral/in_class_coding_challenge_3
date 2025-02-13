@@ -66,3 +66,9 @@ function mergeOrders (orderA, orderB) {
 }
 
 console.log ("All Orders:", mergeOrders(orders1, orders2)) ;
+
+
+// Extra Task
+let employee = {name: "Alice", position: "Developer", salary: 70000.1234}
+
+console.log(`${employee.name} is a ${employee.position} and makes $${parseFloat(employee.salary.toFixed(2))}.`)
