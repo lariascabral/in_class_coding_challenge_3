@@ -54,3 +54,15 @@ function findEmployee(employees, name) {
 }
 
 console.log(findEmployee(employees, 'Bob')) ;
+
+
+// Task 8
+
+let orders1 = [{ id: 1, customer: "Alice"}, { id: 2, customer: "Bob"}] ;
+let orders2 = [{ id: 3, customer: "Charlie"}, { id: 2, customer: "David"}] ;
+
+function mergeOrders (orderA, orderB) {
+    return [... orderA, ... orderB] ;
+}
+
+console.log ("All Orders:", mergeOrders(orders1, orders2)) ;
